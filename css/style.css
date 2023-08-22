@@ -1,0 +1,186 @@
+/* rule allows custom fonts to be loaded on a webpage */
+@font-face {
+  font-family: 'Oxygen', sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+ }
+
+*{
+  max-width: 500px;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+html{
+font-size: 16px; 
+}
+
+body {
+  background-color: rgb(15, 153, 153);
+  font-family: 'Oxygen', sans-serif;
+  color: white;
+  align-items: center;
+  text-align: center;
+  padding: 50px;
+}
+
+p {
+  font-family: 'Oxygen', sans-serif;
+  color: white;
+}
+
+/* page Index */
+.tabs {
+  width: 100%;
+  height: 700px;
+  margin: 50px auto;
+}
+
+.tabs-header{
+  display: flex;
+  justify-content: space-around; 
+}
+.tab-h {
+  display: inline-block;
+  width: 50px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.tab-b {
+  display: none;
+  padding: 20px;
+}
+
+.tabs-body {
+  position: relative;
+}
+
+.active {
+  border-bottom: 1px solid white;
+}
+
+footer {
+  font-size: 12px;
+  padding: 10px;
+  width: 100%;
+}
+
+/* Page Home */
+
+.picture {
+  height: 300px;
+  width: 300px;
+  border-radius: 20%;
+  cursor: pointer;
+}
+
+
+
+.social-icons {
+  background-color: rgb(15, 153, 153);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/* Page About */
+.aboutme {
+  font-size: 12px;
+  text-align: left;
+  width: 500px;
+  height: 220px;
+  margin: 20px;
+  padding: 4%;
+  font-size: 12px;
+}
+
+.swiper-slide {
+  text-align: center;
+}
+
+.gallery-map {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.maps-gallery {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btns {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  background-color: #00d9b5d5;
+  color: white;
+  font-size: 10px;
+  padding: 5px 15px;
+  border-color: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.prev {
+  margin-right: 15px;
+}
+
+.btn:disabled {
+  background-color: rgba(181, 255, 251, 0.745);
+  cursor: not-allowed;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.main-nav {
+  background-color: rgb(5, 60, 77);
+  color: white;
+  margin: 0;
+  padding: 15px;
+}
+
+.brand {
+  margin: 0;
+  font-size: 50px;
+  z-index: 10;
+  cursor: grab;
+  background-color: white;
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  border: 1px solid white;
+}
+
+/* Page Contact */
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
