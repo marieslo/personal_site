@@ -1,7 +1,5 @@
 # Personal Site
 
-This is a simplified personal website showcasing my background, skills, projects, and contact information.
-
 ## Features
 
 - **Interactive Tabs:** Navigation with tabs to switch between Home, About, and Contact sections.
