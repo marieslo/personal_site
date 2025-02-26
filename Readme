@@ -1,0 +1,19 @@
+# Personal Portfolio Website
+
+This is a simplified personal portfolio website showcasing my background, skills, projects, and contact information.
+
+## Features
+
+- **Interactive Tabs:** Navigation with tabs to switch between Home, About, and Contact sections.
+- **Embedded Google Maps Gallery:** Displays various locations in an interactive map gallery.
+- **Contact Form:** Submits inquiries directly via Formspree.
+
+## Technologies Used
+
+- **Frontend:** 
+  - HTML5, CSS3, JavaScript (Vanilla)
+  - Responsive design for different screen sizes
+
+- **Third-Party Integrations:**
+  - Google Maps API
+  - Formspree for contact form submissions
