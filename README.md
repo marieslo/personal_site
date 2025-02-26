@@ -1,6 +1,6 @@
-# Personal Portfolio Website
+# Personal Site
 
-This is a simplified personal portfolio website showcasing my background, skills, projects, and contact information.
+This is a simplified personal website showcasing my background, skills, projects, and contact information.
 
 ## Features
 
