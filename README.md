@@ -1,5 +1,5 @@
 # Personal Site
-### This is a simplified personal website showcasing background, skills, projects, and contact information.
+### This is a simplified informal personal website showcasing background and contact information.
 
 ## Tech Stack
 
